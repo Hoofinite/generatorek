@@ -238,11 +238,11 @@ class Adresy{
 
 class Osoby{
 
-    private static int maxID = 0;
-    private int ID;
-    private String nazwisko;
-    private String imie;
-    private int id_adres;
+    public static int maxID = 0;
+    public int ID;
+    public String nazwisko;
+    public String imie;
+    public int id_adres;
 
     static final String[] nazwiska = { "Nowak", "Kowalski", "Wisniewski", "Wojcik", "Kowalczyk",
             "Kaminski", "Lewandowski", "Zielinski", "Szymanski", "Wozniak" };
